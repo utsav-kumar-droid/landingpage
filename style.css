@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   padding: 0 20px;
+   position: fixed;
+   top:0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+   
+}
+nav img{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+ nav button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+
+}
+nav button a{
+   text-decoration: none;
+   color: white;
+}
+nav button:hover{
+    background-color: rgb(84, 84, 230);
+    border-radius: 5px;
+
+}
+nav .Login{
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: flex-end;
+  position: relative;
+  background-color: #141211;
+  height: 100vh;
+}
+main img{
+    max-width: 100%;
+    object-fit: contain;
+
+}
+main .heading{
+    color: white;
+    margin-right: auto;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 50px;
+    padding-top: 0px;
+    
+}
+  .heading p{
+    margin-top: 30px;
+    font-size: 25px;
+ }
+ main button{
+  height: 30px;
+ 
+    position: absolute;
+    padding: 5px 20px;
+    font-size: 20px;
+    bottom: 20px;
+    right:30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+ }
+ .About {
+    margin-top: 40vh;
+    margin-bottom: 30vh;
+    color: black;
+   margin-left: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+ }
+ 
+ .About h1{
+    font-size: xx-large;
+   font-weight: 300px;
+   background-color: #d9d9d9;}
+   
+ .About p ul{
+    font-size: larger;
+ }
+
+ .About .mission{
+background-color: rgb(255, 255, 255);
+width: 32vw;
+margin-left: 20px;
+height: 30vh;
+margin-right: 15px;
+padding-left: 10px;
+margin-top: 30px;
+
+ }
+ .mission:hover{
+    box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.1);
+    transform: perspective(3000px) translateZ(100px);}
+ .About .vision{
+    background-color: rgb(255, 255, 255);
+    width: 32vw;
+    height: 30vh;
+    margin-right: 15px;
+    padding-left: 10px;
+    margin-top: 30px;
+     }
+     .vision:hover{
+        box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.1);
+        transform: perspective(3000px) translateZ(100px);
+     }
+     .About .values{
+        background-color: rgb(255, 255, 255);
+        width: 32vw;
+        height: 30vh;
+        padding-left: 10px;
+        margin-top: 30px;
+         }
+         .values:hover{
+            box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.1);
+            transform: perspective(3000px) translateZ(100px);
+         }
+         .about{
+            position: absolute;
+            top: -30vh;
+         }
+         .project{
+            margin-top: 40vh;
+            margin-bottom: 30vh;
+            color: black;
+         display: flex;
+         /* flex-direction: column; */
+         justify-content: center;
+         align-items: center;
+         position: relative;
+         margin-left: 50px;
+         }
+         .project h1{
+            font-size: xx-large;
+           font-weight: 300px;
+           background-color: #d9d9d9;}
+         .head{
+            position: absolute;
+            top: -30vh;
+         }
+         .project img {
+        height: 90%;  
+        width: 90%;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       
+         }
+.project .portfolio{
+background-color: rgb(255, 255, 255);
+width: 30vw;
+height: 30vh;
+margin-right: 15px;
+margin-left: 20px;
+padding-bottom: 50px;
+margin-top: 30px;     
+height: 300px;    
+}
+.portfolio:hover{
+box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.1);
+transform: perspective(3000px) translateZ(100px);}
+.project .solorsystem{
+   background-color: rgb(255, 255, 255);
+   width: 30vw;
+   margin-left: 20px;
+   height: 30vh;
+   margin-right: 15px;
+   padding-bottom: 50px;
+   margin-top: 30px; 
+   height: 300px;        
+   }
+   .solorsystem:hover{
+   box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.1);
+   transform: perspective(3000px) translateZ(100px);}
+   .project .cricketquiz{
+      background-color: rgb(255, 255, 255);
+      width: 32vw;
+      margin-left: 20px;
+      height: 30vh;
+      margin-right: 15px;
+      padding-bottom: 50px;
+      margin-top: 30px;  
+      height: 300px;       
+      }
+      .cricketquiz:hover{
+      box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.1);
+      transform: perspective(3000px) translateZ(100px);}
+      .project p{
+         font-size: larger;
+         text-align: center;
+      }
+
+.container1{
+   width: 100%;
+   height: 100vh;
+   background-color: #EEEDED;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30%;
+}
+.container1 a img{
+   height: 20px;
+   
+}
+form{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 2vw 4vw;
+   width: 90%;
+   max-width: 600px;
+   border-radius: 10px;
+}
+form h3{
+   color: #555;
+   font-weight:800 ;
+   margin-bottom: 20px;
+}
+form input , form textarea{
+   border: 0;
+   margin: 10px 0;
+   padding: 20px;
+   outline: none;
+   background: #f5f5f5;
+   font-size: 16px;
+
+
+
+
+}
+form button{
+   padding: 15px;
+   background: blue;
+   color: white;
+   font-size: 18px;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+   width: 150px;
+   margin: 20px auto 0;
+   border-radius: 30px;
+
+}
+form .class {
+   display: flex;
+   flex-direction: row;
+
+}
+
+
+.back-option{
+   text-decoration: none;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: .5rem;
+   font-weight: bold;
+   color: white;
+   background-color: rgb(84, 84, 230);
+} 
+.footer-links{
+   height: 200px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #141211;
+   color:white;
+
+}
+.footer-links ul{
+   margin-top: 3rem;
+
+}
+
+.footer-links ul a{
+   display: block;
+   font-size: .7rem;
+   color: #dddddd;
+   margin-top: 1rem;
+   cursor: pointer;
+}
+footer-links ul a:hover{
+   text-decoration: underline;
+}
+/* .footer-links{
+   height: 20px;
+   width: 10px;
+} */
+
+
+
+ .policies{
+   height: 60px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: .3rem;
+   font-size:.5rem;
+   color:white;
+   background-color: rgb(84, 84, 230);
+   
+ }
+footer a img{
+   height: 20px;
+   width: 10px;
+}
+
+@media (max-width:400px) {
+ 
+  
+  nav{
+    
+     width: 100%;  
+  }
+  nav img{
+      height: 20px;
+      width: 20px;
+  }
+   nav button{
+      padding: 5px 10px;
+      font-size: 10px;
+  }
+  nav .Login{
+      padding: 7px 10px;
+      border-radius: 5px;
+  }
+  
+
+
+
+    .heading p{
+      margin-top: 5px;
+      font-size: 5px;
+   }
+   .heading h1{
+      
+      font-size: 20px;
+   }
+   main img{
+      width: 50vw;
+   }
+   main button{
+    height: 30px;
+    padding: 7px;
+   
+   
+   }
+   .About {
+      
+     flex-direction: column;
+     
+     
+   }
+   
+   .About h1{
+      font-size: larger;
+     }
+     
+   .About p ul{
+      font-size: smaller;
+   }
+  
+   .About .mission{
+  width: 40vw;
+  margin-left: 20px;
+  height: 40vh;
+  text-align: center;
+ 
+  
+   }
+   .About .vision{
+      width: 40vw;
+      margin-left: 20px;
+      height: 40vh;
+      text-align: center;
+       }
+      
+       .About .values{
+         width: 40vw;
+         margin-left: 20px;
+         height: 60vh;
+         
+           }
+           .about{
+              top: -40vh;
+           }
+           .project{
+            flex-direction: column;
+           }
+           .project h1{
+            font-size: larger;}
+           .head{
+              position: absolute;
+              top: -10vh;
+           }
+           .project img {
+          height: 100%;  
+          width: 100%;
+           }
+  .project .portfolio{
+   
+   width: 40vw;
+   margin-left: 20px;
+   height: 100%;  
+   margin-top: 1px; 
+   padding-bottom: 20px;  
+   
+   
+  }
+  .project .solorsystem{
+   width: 40vw;
+   margin-left: 20px;
+   height: 100%;  
+   margin-top: 20px; 
+   padding-bottom: 20px;  
+   
+   }
+     .project .cricketquiz{
+      width: 40vw;
+      margin-left: 20px;
+      height: 100%;  
+      margin-top: 20px; 
+      padding-bottom: 20px;  
+        }
+        .project p{
+           font-size: small;
+           text-align: center;
+           margin-top: 20px; 
+        }
+  
+  .container1{
+     width: 100%;
+     height: 100vh;
+     background-color: #EEEDED;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30%;
+  }
+  .container1 a img{
+     height: 20px;
+     
+  }
+  form{
+     background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding: 2vw 4vw;
+     width: 90%;
+     max-width: 600px;
+     border-radius: 10px;
+  }
+  form h3{
+     color: #555;
+     font-weight:800 ;
+     margin-bottom: 20px;
+  }
+  form input , form textarea{
+     border: 0;
+     margin: 10px 0;
+     padding: 20px;
+     outline: none;
+     background: #f5f5f5;
+     font-size: 16px;
+  
+  
+  
+  
+  }
+  form button{
+     padding: 15px;
+     background: blue;
+     color: white;
+     font-size: 18px;
+     border: 0;
+     outline: none;
+     cursor: pointer;
+     width: 150px;
+     margin: 20px auto 0;
+     border-radius: 30px;
+  
+  }
+  form .class {
+     display: flex;
+     flex-direction: row;
+  
+  }
+  
+  
+  .back-option{
+     text-decoration: none;
+     height: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: .5rem;
+     font-weight: bold;
+     color: white;
+     background-color: rgb(84, 84, 230);
+  } 
+  .footer-links{
+     height: 200px;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #141211;
+     color:white;
+  
+  }
+  .footer-links ul{
+     margin-top: 3rem;
+  
+  }
+  
+  .footer-links ul a{
+     display: block;
+     font-size: .7rem;
+     color: #dddddd;
+     margin-top: 1rem;
+     cursor: pointer;
+  }
+  footer-links ul a:hover{
+     text-decoration: underline;
+  }
+  /* .footer-links{
+     height: 20px;
+     width: 10px;
+  } */
+  
+  
+  
+   .policies{
+     height: 60px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: .3rem;
+     font-size:.5rem;
+     color:white;
+     background-color: rgb(84, 84, 230);
+     
+   }
+  footer a img{
+     height: 20px;
+     width: 10px;
+  }
+
+
+
+
+
+
+}
